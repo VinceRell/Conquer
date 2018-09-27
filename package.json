@@ -1,0 +1,11 @@
+{
+  "name": "conquer",
+  "version": "1.0.0",
+  "description": "a web page to test front end technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vincent Rellum",
+  "license": "ISC"
+}
