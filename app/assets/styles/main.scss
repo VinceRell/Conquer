@@ -1,8 +1,3 @@
-.main-nav {
-    background: purple;
-
-    &__items {
-        margin: 0;
-        padding: 0;
-    } 
-}
+@import "base/global";
+@import "modules/header";
+@import "modules/primary-nav";
