@@ -1,7 +1,27 @@
 .main-nav {
-    &__items {
+   width: 90%;
+   margin: 0 auto;
+   display: none;
+   
+   &__items {
+    list-style: none;
         margin: 0;
-        padding: 0;
-        list-style: none;
-    }
+        padding: 0; 
+   }
+
+   &__item {
+        padding: 0.5rem 1rem;
+        border-bottom: 1px solid #646d7c;
+        background: #383E4C;
+        text-align: center;
+   }
+
+   &__items a {
+       text-decoration: none;
+       color: #fff;
+       font-weight: 500;
+   }
+
 }
+
+
