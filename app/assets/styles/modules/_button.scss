@@ -1,0 +1,28 @@
+.button {
+    color: #fff;
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+    &--sass {
+        background: #CD6799;
+    }
+
+    &--webpack {
+        background: #1C78C0;
+    }
+
+    &--es6 {
+        background: #F6D854;
+    }
+
+    &--blog {
+        color: #666666;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 0.8rem 1.8rem;
+    }
+}

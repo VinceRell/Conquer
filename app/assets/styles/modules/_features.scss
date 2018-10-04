@@ -1,0 +1,40 @@
+.features {
+    margin: 4rem 0;  
+}
+
+.feature {
+   display: flex;
+   flex-direction: column;
+   max-width: 22.5rem;
+   margin: 1rem;
+   text-align: center;
+   background: #F2F2F2;
+   
+   &__image {
+       height: 8rem;
+   }
+
+   &__title {
+     font-size: 1.25rem;
+     padding: 0 1.25rem;
+     margin: 1.25rem 0;
+
+     &--sass {
+         color: #CD6799;
+     }
+
+     &--webpack {
+         color: #1C78C0;
+     }
+
+     &--es6 {
+         color: #F6D854;
+     }
+   }
+
+   &__annotation {
+       font-size: 0.9rem;
+       padding: 0 1.25rem;
+       margin: 1.25rem 0;
+   }
+}

@@ -1,3 +1,28 @@
 .hero {
-    background-image: url("../images/hero-bg.jpg"); 
+    background: url("../images/hero-bg.jpg") center/ cover no-repeat; 
+    height: 50vh;
+
+    &__content-container {
+        text-align: center;
+        position: relative;
+        top: 25%;
+    }
+
+    &__title {
+        font-size: 3.5rem;
+        font-weight: 300;
+        color: #fff;
+        text-shadow: 2px 2px #333;
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    &__subtitle {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #fff;
+        text-shadow: 1px 1px #333;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
 }
