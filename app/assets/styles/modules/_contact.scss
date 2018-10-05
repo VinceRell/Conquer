@@ -1,0 +1,37 @@
+.contact-section {
+    height: 100%;
+    background: url("../images/bg-contact.jpg")  center/ cover no-repeat;
+    margin: 4.5rem 0;
+    padding: 0 1rem;
+    overflow: auto;
+
+
+    &__content-container {
+        text-align: center;
+        margin: 2rem 0;
+        padding: 1rem 0;
+    }
+
+    &__title {
+        margin: 1.25rem 0;
+        color: #fff;
+        font-size: 2.25rem;
+        font-weight: 300;
+        text-shadow: 2px 2px #333;
+    }
+
+    &__paragraph {
+        background: rgba(242, 242, 242, 0.4);
+        color: #000;
+        font-size: 1rem;
+        line-height: 1.6em;
+        border-radius: 5px;
+        padding: 1.25rem 1rem;
+        margin-bottom: 1.25rem;
+    }
+}
+
+
+
+
+
