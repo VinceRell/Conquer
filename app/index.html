@@ -193,14 +193,48 @@
                 </p>
             </div>
 
-            <form action="#">
-                
+            <form method="POST" action="#" class="contact-section__form">
+                <div class="contact-section__form-fields">
+                   <p>
+                        <label for="name">
+                            <input type="text" id="name" placeholder="Name">
+                        </label>
+                   </p>
+                   <p>
+                        <label for="email">
+                            <input type="text" id="email" placeholder="Email">
+                        </label>
+                   </p>
+                    <p>
+                        <label for="subject">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </label>
+                    </p>
+                </div>
+                <div class="contact-section__form-fields">
+                    <p>
+                        <label for="message">
+                            <textarea name="message" id="message" placeholder="Your message here..."></textarea>
+                        </label>
+                    </p>
+                    <button type="submit" class="button button--contact">Send</button>
+                </div>
             </form>
         </section>
     </main>
 
-    <footer>
-
+    <footer class="main-footer">
+        <div class="main-footer__container">
+           <em class="main-footer__text-style"> 
+               <h1 class="main-footer__title">Footer Text</h1>
+               <p class="main-footer__subtitle">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Animi placeat corporis vero distinctio maxime dicta repellat!"
+              </p>
+            </em>
+        </div>
+            <hr class="main-footer__border-line">
+            <p class="main-footer__copyright">Copyright &copy; 2018 Your Company Name | Design inspired by the Conquer Template</p>
     </footer>
 </body>
 </html>

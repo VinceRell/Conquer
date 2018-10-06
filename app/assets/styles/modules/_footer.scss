@@ -1,0 +1,38 @@
+.main-footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: auto;
+
+    &__container {
+        padding: 0 0.9rem; 
+        margin: 1.5rem 0 2.875rem;
+    }
+
+    &__text-style {
+        display: block;
+    }
+
+    &__border-line {
+        margin: 1.25rem 0;
+        border: 0;
+        border-top: 1px solid #eee;
+    }
+    
+    &__title {
+       color: #666666;
+       font-weight: 300;
+    }
+
+    &__subtitle {
+        color: #999;
+        font-size: 0.875rem;
+    }
+
+    &__copyright {
+        font-size: 0.75rem;
+        color: #666666;
+        margin: 2rem 0 1.875rem;
+        padding: 0 0.9rem; 
+    }
+}

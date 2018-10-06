@@ -1,5 +1,6 @@
 @import "base/global";
-@import "./modules/button";
+@import "base/mixins";
+@import "modules/button";
 @import "modules/header";
 @import "modules/primary-nav";
 @import "modules/hero";
@@ -8,3 +9,4 @@
 @import "modules/service";
 @import "modules/testimonial";
 @import "modules/contact";
+@import "modules/footer";

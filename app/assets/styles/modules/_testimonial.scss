@@ -1,8 +1,12 @@
 .testimonials {
     &__list {
         display: flex;
-        flex-direction: column;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-between;
         padding: 0 1rem;
+
+        @include Flexbox-row;
     }
 }
 
@@ -11,6 +15,8 @@
     max-width: 16.25rem;
     margin: 0 auto 1.8rem;
     background: #f2f2f2;
+
+    @include Flexbox-col;
 
     &__image {
         width: 160px;
@@ -36,7 +42,7 @@
 
 .testimonials-description {
     max-width: 35rem;
-    margin: 1rem;
+    margin: 1rem auto;
     background: #F2F2F2;
 
     &__content {
