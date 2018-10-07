@@ -95,7 +95,14 @@ img {
 
 .hero {
   background: url(./images/hero-bg.jpg) center/cover no-repeat;
+  width: 100vw;
   height: 50vh; }
+  @media (min-width: 30rem) {
+    .hero {
+      height: 75vh; } }
+  @media (min-width: 48rem) {
+    .hero {
+      height: 100vh; } }
   .hero__content-container {
     text-align: center;
     position: relative;
@@ -136,7 +143,9 @@ img {
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    max-width: 68.75rem;
+    margin: 0 auto; }
     @media (min-width: 48rem) {
       .feature__list {
         -webkit-box-orient: horizontal;
@@ -160,34 +169,42 @@ img {
     padding: 0 1.25rem;
     margin: 1.25rem 0; }
 
-.blog-posts {
+.blog__posts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 68.75rem;
+  margin: 0 auto; }
   @media (min-width: 48rem) {
-    .blog-posts {
+    .blog__posts {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
 
-.blog-post {
+.blog__post {
   max-width: 35rem;
   margin: 1rem;
   text-align: center;
   background: #F2F2F2; }
-  .blog-post__image {
+  .blog__post-image {
     height: 14rem; }
-  .blog-post__title {
+  .blog__post-title {
     color: #666666;
     font-size: 1.25rem;
     padding: 0 1.65rem;
     margin: 1.25rem 0; }
-  .blog-post__paragraph {
+  .blog__post-text {
     font-size: 0.9rem;
     padding: 0 1.65rem;
     margin: 1.25rem 0;
@@ -202,8 +219,9 @@ img {
   overflow: auto; }
   .service__content-container {
     text-align: center;
-    margin: 2rem 0;
-    padding: 1rem 0; }
+    margin: 4rem auto;
+    padding: 1rem 0;
+    max-width: 43.75rem; }
   .service__title {
     margin: 1.25rem 0;
     color: #fff;
@@ -229,7 +247,8 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 1rem; }
+  max-width: 68.75rem;
+  margin: 0 auto; }
   @media (min-width: 48rem) {
     .testimonials__list {
       -webkit-box-orient: horizontal;
@@ -264,7 +283,7 @@ img {
     margin: 0; }
 
 .testimonials-description {
-  max-width: 35rem;
+  max-width: 68.75rem;
   margin: 1rem auto;
   background: #F2F2F2; }
   .testimonials-description__content {

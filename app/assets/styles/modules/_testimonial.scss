@@ -4,8 +4,8 @@
         flex-flow: column wrap;
         align-items: center;
         justify-content: space-between;
-        padding: 0 1rem;
-
+        max-width: 68.75rem;
+        margin: 0 auto;
         @include Flexbox-row;
     }
 }
@@ -41,9 +41,10 @@
 }
 
 .testimonials-description {
-    max-width: 35rem;
+    max-width: 68.75rem;
     margin: 1rem auto;
     background: #F2F2F2;
+
 
     &__content {
         margin: 0;

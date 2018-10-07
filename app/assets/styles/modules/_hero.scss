@@ -1,6 +1,9 @@
 .hero {
     background: url("../images/hero-bg.jpg") center/ cover no-repeat; 
+    width: 100vw;
     height: 50vh;
+
+    @include Viewportsizes;
 
     &__content-container {
         text-align: center;
