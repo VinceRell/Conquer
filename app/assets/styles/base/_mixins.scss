@@ -1,4 +1,11 @@
-@mixin Flexbox-row {
+@mixin Flexbox-row-xs {
+    @media (min-width: 30rem) {
+        flex-direction: row;
+        margin: 0 3rem;
+    }
+}
+
+@mixin Flexbox-row-sm {
     @media (min-width: 48rem) {
         flex-direction: row;
     }
@@ -18,4 +25,15 @@
     @media (min-width: 48rem) {
         height: 100vh;
     }
+}
+
+@mixin Containersize {
+    @media (min-width: 33.125rem) {
+       width: 50%;
+       max-width: 33rem;
+    }
+
+    @media (min-width: 62rem) {
+        width: 25%;
+     }
 }

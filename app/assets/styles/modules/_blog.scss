@@ -8,7 +8,7 @@
         max-width: 68.75rem;
         margin: 0 auto;
 
-        @include Flexbox-row;
+        @include Flexbox-row-sm;
     }
 
     &__post {
