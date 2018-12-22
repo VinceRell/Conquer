@@ -1,6 +1,7 @@
 .contact-section {
     height: 100%;
     background: url("../images/bg-contact.jpg")  center/ cover no-repeat;
+    background-attachment: scroll local;
     margin: 4.5rem 0 0;
     padding: 0 1rem;
     overflow: auto;

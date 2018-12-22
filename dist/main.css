@@ -112,7 +112,7 @@ img {
     position: relative;
     top: 25%; }
   .hero__title {
-    font-size: 3.5rem;
+    font-size: 4.75rem;
     font-weight: 300;
     color: #fff;
     text-shadow: 2px 2px #333;
@@ -253,33 +253,37 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 68.75rem;
-  margin: 0 auto; }
-  @media (min-width: 30rem) {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media (min-width: 521px) {
     .testimonials__list {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
-      margin: 0 3rem; } }
+      max-width: 750px; } }
+  @media (min-width: 992px) {
+    .testimonials__list {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      max-width: 1160px; } }
 
 .testimonials__list-item {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  width: 100%;
   padding: 0 0.9rem; }
-  @media (min-width: 33.125rem) {
+  @media (min-width: 521px) {
     .testimonials__list-item {
-      width: 50%;
-      max-width: 33rem; } }
-  @media (min-width: 62rem) {
+      width: 50%; } }
+  @media (min-width: 992px) {
     .testimonials__list-item {
       width: 25%; } }
 
 .testimonial {
   height: 27rem;
-  max-width: 16.25rem;
-  margin: 0 auto 1.8rem;
+  max-width: 260px;
+  margin: 0 auto 30px;
   background: #f2f2f2;
   overflow: auto; }
   .testimonial__image {
@@ -319,6 +323,7 @@ img {
 .contact-section {
   height: 100%;
   background: url(./images/bg-contact.jpg) center/cover no-repeat;
+  background-attachment: scroll local;
   margin: 4.5rem 0 0;
   padding: 0 1rem;
   overflow: auto; }
