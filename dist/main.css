@@ -89,27 +89,39 @@ img {
 .main-nav {
   width: 90%;
   margin: 0 auto;
-  display: none; }
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
   .main-nav__items {
     list-style: none;
     margin: 0;
     padding: 0; }
   .main-nav__item {
-    padding: 0.5rem 1rem;
+    text-align: center; }
+  .main-nav__item a {
+    display: block;
+    padding: 1rem;
     border-bottom: 1px solid #646d7c;
     background: #383E4C;
-    text-align: center; }
-  .main-nav__items a {
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
     font-weight: 500; }
+  .main-nav__items a:hover,
+  .main-nav__items a:focus {
+    background: #f2f2f2;
+    color: #646d7c; }
+
+.main-nav--open {
+  height: 220px; }
 
 @media (min-width: 768px) {
   .main-nav {
     display: block;
     padding: 10px 0;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    height: auto; }
     .main-nav__items {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -125,9 +137,10 @@ img {
           -ms-flex-pack: center;
               justify-content: center; }
     .main-nav__item {
+      margin: 0 10px; }
+    .main-nav__item a {
       border: 1px solid #646d7c;
-      padding: 0.8rem 1.5rem;
-      margin: 0 10px; } }
+      padding: 0.8rem 1.5rem; } }
 
 @media (min-width: 999px) {
   .main-nav__item a {
@@ -138,18 +151,12 @@ img {
   width: 100vw;
   height: 50vh;
   overflow-x: hidden; }
-  @media (min-width: 30rem) {
-    .hero {
-      height: 75vh; } }
-  @media (min-width: 48rem) {
-    .hero {
-      height: 93vh; } }
   .hero__content-container {
     text-align: center;
     position: relative;
     top: 40%; }
   .hero__title {
-    font-size: 4.48rem;
+    font-size: 55px;
     font-weight: 300;
     color: #fff;
     text-shadow: 2px 2px #333;
@@ -163,8 +170,18 @@ img {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem; }
 
+@media (min-width: 30rem) {
+  .hero {
+    height: 75vh; }
+    .hero__title {
+      font-size: 75px; } }
+
+@media (min-width: 48rem) {
+  .hero {
+    height: 93vh; } }
+
 .features {
-  margin: 4rem 0; }
+  margin: 4.5rem 0; }
 
 .feature {
   max-width: 22.5rem;

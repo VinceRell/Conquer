@@ -29,16 +29,6 @@
     }
 }
 
-@mixin Viewportsizes {
-    @media (min-width: 30rem) {
-        height: 75vh;
-    }
-
-    @media (min-width: 48rem) {
-        height: 93vh;
-    }
-}
-
 @mixin Containersize-half {
     @media (min-width: 521px) {
         width: 50%;

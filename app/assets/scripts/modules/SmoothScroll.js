@@ -14,7 +14,7 @@ class SmoothScroll {
             e.preventDefault();
             this.pageBody.animate({
                 scrollTop: $(e.target.hash).offset().top
-            }, 1000);
+            }, 1600);
         })
     }
 
