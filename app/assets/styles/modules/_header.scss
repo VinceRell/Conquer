@@ -30,3 +30,14 @@
    border-radius: 1px;
   } 
 }
+
+@media (min-width: 768px) {
+  .main-header {
+      display: block;
+      background: #383E4C;
+
+      &__toggle-button {
+        display: none;
+      }
+  }
+}

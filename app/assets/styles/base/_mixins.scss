@@ -1,14 +1,23 @@
-@mixin Flexbox-row-xs {
+@mixin Flexbox-row-xs  { 
     @media (min-width: 521px) {
-        width: 50%;
+       flex-direction: row;
+       max-width: 750px;
     }
 
     @media (min-width: 992px) {
-        width: 25%;
-    }
+        flex-direction: row;
+        max-width: 68.75rem;
+     }
 }
 
 @mixin Flexbox-row-sm {
+    @media (min-width: 48rem) {
+        flex-direction: row;
+        align-items: baseline;
+    }
+}
+
+@mixin Flexbox-row-sm-custom {
     @media (min-width: 48rem) {
         flex-direction: row;
     }
@@ -26,18 +35,24 @@
     }
 
     @media (min-width: 48rem) {
-        height: 100vh;
+        height: 93vh;
     }
 }
 
-@mixin Containersize {
+@mixin Containersize-half {
     @media (min-width: 521px) {
-       flex-direction: row;
-       max-width: 750px;
+        width: 50%;
     }
+}
 
+@mixin Containersize-quarter {
     @media (min-width: 992px) {
-        flex-direction: row;
-        max-width: 1160px;
-     }
+        width: 25%;
+    }
+}
+
+@mixin field-form {
+    @media (min-width) {
+        width: 50%;
+    }
 }

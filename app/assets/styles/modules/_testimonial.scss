@@ -8,12 +8,13 @@
         margin: 0 auto;
         padding-left: 1rem;
         padding-right: 1rem; 
-        @include Containersize;
+        @include Flexbox-row-xs;
     }
 
     &__list-item {
         padding: 0 0.9rem;
-        @include Flexbox-row-xs;
+        @include Containersize-half;
+        @include Containersize-quarter;
     }
 
 }
@@ -50,12 +51,16 @@
 .testimonials-description {
     max-width: 68.75rem;
     margin: 1rem auto;
-    background: #F2F2F2;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
+    &__container {
+        margin: 0;
+        background: #F2F2F2;
+    }
 
     &__content {
-        margin: 0;
-        padding: 1.8rem;
+        padding: 2rem;
     }
 
     &__title {
@@ -70,5 +75,13 @@
         margin: 0 0 0.6rem;
         line-height: 1.6em;
         color: #333;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .testimonials-description {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }

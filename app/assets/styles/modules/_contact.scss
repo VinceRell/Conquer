@@ -1,7 +1,6 @@
 .contact-section {
     height: 100%;
     background: url("../images/bg-contact.jpg")  center/ cover no-repeat;
-    background-attachment: scroll local;
     margin: 4.5rem 0 0;
     padding: 0 1rem;
     overflow: auto;
@@ -9,8 +8,10 @@
 
     &__content-container {
         text-align: center;
-        margin: 2rem 0 -1rem;
+        margin: 5rem auto 1.2rem auto;
         padding: 1rem 0;
+        max-width: 750px;
+        overflow: hidden;
     }
 
     &__title {
@@ -34,10 +35,15 @@
     &__form {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         margin-bottom: 2rem;
+        @include Flexbox-row-sm-custom;
     }
 
     &__form-fields {
+        width: 100%;
+        @include field-form;
+
         & p {
             margin-top: 0;
         }
@@ -69,7 +75,17 @@
     }
 }
 
+#field-left {
+    padding: 0; 
+    @media (min-width:768px) {
+        padding-right: 15px; 
+    }
+}
 
-
-
+#field-right {
+    padding: 0; 
+    @media (min-width:768px) {
+        padding-left: 15px; 
+    }
+}
 
