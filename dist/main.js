@@ -86,6 +86,149 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./app/assets/images/bg-contact.jpg":
+/*!******************************************!*\
+  !*** ./app/assets/images/bg-contact.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/bg-contact.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/bg-contact.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/blog1.jpg":
+/*!*************************************!*\
+  !*** ./app/assets/images/blog1.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/blog1.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/blog1.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/blog2.jpg":
+/*!*************************************!*\
+  !*** ./app/assets/images/blog2.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/blog2.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/blog2.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/hero-bg.jpg":
+/*!***************************************!*\
+  !*** ./app/assets/images/hero-bg.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/hero-bg.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/hero-bg.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/javascript.jpg":
+/*!******************************************!*\
+  !*** ./app/assets/images/javascript.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/javascript.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/javascript.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/network.jpg":
+/*!***************************************!*\
+  !*** ./app/assets/images/network.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/network.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/network.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/sass.jpg":
+/*!************************************!*\
+  !*** ./app/assets/images/sass.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/sass.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/sass.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/tes1.jpg":
+/*!************************************!*\
+  !*** ./app/assets/images/tes1.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/tes1.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/tes1.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/tes2.jpg":
+/*!************************************!*\
+  !*** ./app/assets/images/tes2.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/tes2.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/tes2.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/tes3.jpg":
+/*!************************************!*\
+  !*** ./app/assets/images/tes3.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/tes3.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/tes3.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/tes4.jpg":
+/*!************************************!*\
+  !*** ./app/assets/images/tes4.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/tes4.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/tes4.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/tes5.jpg":
+/*!************************************!*\
+  !*** ./app/assets/images/tes5.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/tes5.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/tes5.jpg?");
+
+/***/ }),
+
+/***/ "./app/assets/images/webpack.jpg":
+/*!***************************************!*\
+  !*** ./app/assets/images/webpack.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"./images/webpack.jpg\";\n\n//# sourceURL=webpack:///./app/assets/images/webpack.jpg?");
+
+/***/ }),
+
 /***/ "./app/assets/scripts/main.js":
 /*!************************************!*\
   !*** ./app/assets/scripts/main.js ***!
@@ -94,7 +237,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ \"./app/assets/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/MobileMenu */ \"./app/assets/scripts/modules/MobileMenu.js\");\n/* harmony import */ var _modules_SmoothScroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/SmoothScroll */ \"./app/assets/scripts/modules/SmoothScroll.js\");\n/* harmony import */ var _modules_ParallaxBg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/ParallaxBg */ \"./app/assets/scripts/modules/ParallaxBg.js\");\n\n\n\n\nvar mobileMenu = new _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\nvar smoothScroll = new _modules_SmoothScroll__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\nvar parallaxBg = new _modules_ParallaxBg__WEBPACK_IMPORTED_MODULE_3__[\"default\"]();\n\n//# sourceURL=webpack:///./app/assets/scripts/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.scss */ \"./app/assets/styles/main.scss\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_sass_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/sass.jpg */ \"./app/assets/images/sass.jpg\");\n/* harmony import */ var _images_sass_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_sass_jpg__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_javascript_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/javascript.jpg */ \"./app/assets/images/javascript.jpg\");\n/* harmony import */ var _images_javascript_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_javascript_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_webpack_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/webpack.jpg */ \"./app/assets/images/webpack.jpg\");\n/* harmony import */ var _images_webpack_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_webpack_jpg__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _images_blog1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/blog1.jpg */ \"./app/assets/images/blog1.jpg\");\n/* harmony import */ var _images_blog1_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_blog1_jpg__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _images_blog2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/blog2.jpg */ \"./app/assets/images/blog2.jpg\");\n/* harmony import */ var _images_blog2_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_blog2_jpg__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _images_tes1_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/tes1.jpg */ \"./app/assets/images/tes1.jpg\");\n/* harmony import */ var _images_tes1_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_images_tes1_jpg__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _images_tes2_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/tes2.jpg */ \"./app/assets/images/tes2.jpg\");\n/* harmony import */ var _images_tes2_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_tes2_jpg__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _images_tes3_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/tes3.jpg */ \"./app/assets/images/tes3.jpg\");\n/* harmony import */ var _images_tes3_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_tes3_jpg__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _images_tes4_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/tes4.jpg */ \"./app/assets/images/tes4.jpg\");\n/* harmony import */ var _images_tes4_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_images_tes4_jpg__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _images_tes5_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/tes5.jpg */ \"./app/assets/images/tes5.jpg\");\n/* harmony import */ var _images_tes5_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_images_tes5_jpg__WEBPACK_IMPORTED_MODULE_10__);\n/* harmony import */ var _images_hero_bg_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/hero-bg.jpg */ \"./app/assets/images/hero-bg.jpg\");\n/* harmony import */ var _images_hero_bg_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_images_hero_bg_jpg__WEBPACK_IMPORTED_MODULE_11__);\n/* harmony import */ var _images_network_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/network.jpg */ \"./app/assets/images/network.jpg\");\n/* harmony import */ var _images_network_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_images_network_jpg__WEBPACK_IMPORTED_MODULE_12__);\n/* harmony import */ var _images_bg_contact_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../images/bg-contact.jpg */ \"./app/assets/images/bg-contact.jpg\");\n/* harmony import */ var _images_bg_contact_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_images_bg_contact_jpg__WEBPACK_IMPORTED_MODULE_13__);\n/* harmony import */ var _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./modules/MobileMenu */ \"./app/assets/scripts/modules/MobileMenu.js\");\n/* harmony import */ var _modules_SmoothScroll__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./modules/SmoothScroll */ \"./app/assets/scripts/modules/SmoothScroll.js\");\n//css import\n //image import\n\n\n\n\n\n\n\n\n\n\n\n\n\n //js import\n\n\n //js events\n\nvar mobileMenu = new _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_14__[\"default\"]();\nvar smoothScroll = new _modules_SmoothScroll__WEBPACK_IMPORTED_MODULE_15__[\"default\"]();\n\n//# sourceURL=webpack:///./app/assets/scripts/main.js?");
 
 /***/ }),
 
@@ -106,19 +249,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\nvar MobileMenu =\n/*#__PURE__*/\nfunction () {\n  function MobileMenu() {\n    _classCallCheck(this, MobileMenu);\n\n    this.toggleButton = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".main-header__toggle-button\");\n    this.mainNav = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".main-nav\");\n    this.navLinks = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".main-nav__item a\");\n    this.eventHandlers();\n  }\n\n  _createClass(MobileMenu, [{\n    key: \"eventHandlers\",\n    value: function eventHandlers() {\n      var _this = this;\n\n      this.toggleButton.click(function () {\n        _this.mainNav.toggleClass(\"main-nav--open\");\n      });\n      this.navLinks.click(function () {\n        _this.mainNav.removeClass(\"main-nav--open\");\n      });\n    }\n  }]);\n\n  return MobileMenu;\n}();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MobileMenu);\n\n//# sourceURL=webpack:///./app/assets/scripts/modules/MobileMenu.js?");
-
-/***/ }),
-
-/***/ "./app/assets/scripts/modules/ParallaxBg.js":
-/*!**************************************************!*\
-  !*** ./app/assets/scripts/modules/ParallaxBg.js ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\nvar ParallaxBg =\n/*#__PURE__*/\nfunction () {\n  function ParallaxBg() {\n    _classCallCheck(this, ParallaxBg);\n\n    this.homeBg = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".hero--parallax\");\n    this.serviceBg = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".service--parallax\");\n    this.contatcBg = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".contact--parallax\");\n    this.eventHandler();\n  }\n\n  _createClass(ParallaxBg, [{\n    key: \"eventHandler\",\n    value: function eventHandler() {\n      var _this = this;\n\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scroll(function () {\n        var scrollLocation = jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scrollTop();\n\n        _this.homeBg.css(\"background-position\", \"center \" + scrollLocation * 0.75 + \"px\"); //this.serviceBg.css(\"background-position\", \"center \" + (scrollLocation * 0.75) + \"px\");\n        //this.contactBg.css(\"background-position\", \"center \" + (scrollLocation * 0.75) + \"px\");\n\n      });\n    }\n  }]);\n\n  return ParallaxBg;\n}();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ParallaxBg);\n\n//# sourceURL=webpack:///./app/assets/scripts/modules/ParallaxBg.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n\n\nvar MobileMenu =\n/*#__PURE__*/\nfunction () {\n  function MobileMenu() {\n    _classCallCheck(this, MobileMenu);\n\n    this.toggleButton = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".main-header__toggle-button\");\n    this.mainNav = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".main-nav\");\n    this.navLinks = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".main-nav__item a\");\n    this.sitebody = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"main\");\n    this.eventHandlers();\n  }\n\n  _createClass(MobileMenu, [{\n    key: \"eventHandlers\",\n    value: function eventHandlers() {\n      var _this = this;\n\n      this.toggleButton.click(function () {\n        _this.mainNav.toggleClass(\"main-nav--open\");\n      });\n      this.navLinks.click(function () {\n        _this.closeMobileNav();\n      });\n      this.sitebody.click(function () {\n        _this.closeMobileNav();\n      });\n    }\n  }, {\n    key: \"closeMobileNav\",\n    value: function closeMobileNav() {\n      this.mainNav.removeClass(\"main-nav--open\");\n    }\n  }]);\n\n  return MobileMenu;\n}();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MobileMenu);\n\n//# sourceURL=webpack:///./app/assets/scripts/modules/MobileMenu.js?");
 
 /***/ }),
 
@@ -130,7 +261,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n //navigation smooth scrolling\n\nvar SmoothScroll =\n/*#__PURE__*/\nfunction () {\n  function SmoothScroll() {\n    _classCallCheck(this, SmoothScroll);\n\n    this.scrollLink = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".scroll\");\n    this.pageBody = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"body,html\");\n    this.eventHandlers();\n  }\n\n  _createClass(SmoothScroll, [{\n    key: \"eventHandlers\",\n    value: function eventHandlers() {\n      var _this = this;\n\n      this.scrollLink.click(function (e) {\n        e.preventDefault();\n\n        _this.pageBody.animate({\n          scrollTop: jquery__WEBPACK_IMPORTED_MODULE_0___default()(e.target.hash).offset().top\n        }, 1600);\n      });\n    }\n  }]);\n\n  return SmoothScroll;\n}();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SmoothScroll);\n\n//# sourceURL=webpack:///./app/assets/scripts/modules/SmoothScroll.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n //navigation smooth scrolling\n\nvar SmoothScroll =\n/*#__PURE__*/\nfunction () {\n  function SmoothScroll() {\n    _classCallCheck(this, SmoothScroll);\n\n    this.scrollLink = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".scroll\");\n    this.pageBody = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"body,html\");\n    this.eventHandlers();\n  }\n\n  _createClass(SmoothScroll, [{\n    key: \"eventHandlers\",\n    value: function eventHandlers() {\n      var _this = this;\n\n      this.scrollLink.click(function (e) {\n        e.preventDefault();\n\n        _this.pageBody.animate({\n          scrollTop: jquery__WEBPACK_IMPORTED_MODULE_0___default()(e.target.hash).offset().top - 66\n        }, 1600);\n      });\n    }\n  }]);\n\n  return SmoothScroll;\n}();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SmoothScroll);\n\n//# sourceURL=webpack:///./app/assets/scripts/modules/SmoothScroll.js?");
 
 /***/ }),
 

@@ -27,7 +27,7 @@
     </header>
     
     <main>
-        <section class="hero hero--parallax" id="Home">
+        <section class="hero" id="Home">
             <div class="hero__content-container">
                 <h1 class="hero__title">CONQUER</h1>
                 <h4 class="hero__subtitle">A webpage built by Vincent</h4>
@@ -37,19 +37,19 @@
         <section class="features" id="Features">
           <div class="feature__list">
             <article class="feature">
-                <img src="./images/sass.jpg" class="feature__image" alt="Sass">
+                <img data-src='./images/sass.jpg' class="feature__image lazyload" alt="Sass">
                 <h2 class="feature__title feature__title--sass">SASS</h2>
                 <p class="feature__annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis natus ullam. Hic provident placeat laboriosam expedita odit. Voluptatibus, illum.</p>
                 <button class="button button--sass">click now</button>
             </article>
             <article class="feature">
-                <img src="./images/webpack.jpg" class="feature__image" alt="Webpack">
+                <img data-src='./images/webpack.jpg' class="feature__image lazyload" alt="Webpack">
                 <h2 class="feature__title feature__title--webpack">Webpack 4</h2>
                 <p class="feature__annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis natus ullam. Hic provident placeat laboriosam expedita odit. Voluptatibus, illum.</p>
                 <button class="button button--webpack">click now</button>
             </article>
             <article class="feature">
-                <img src="./images/javascript.jpg" class="feature__image" alt="Javascript">
+                <img data-src="./images/javascript.jpg" class="feature__image lazyload" alt="Javascript">
                 <h2 class="feature__title feature__title--es6">ES6 code</h2>
                 <p class="feature__annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis natus ullam. Hic provident placeat laboriosam expedita odit. Voluptatibus, illum.</p>
                 <button class="button button--es6">click now</button>
@@ -60,7 +60,7 @@
         <section class="blog" id="Blog">
             <div class="blog__posts">
                 <article class="blog__post">
-                    <img src="./images/blog1.jpg" class="blog__post-image" alt="blog image left">
+                    <img data-src="./images/blog1.jpg" class="blog__post-image lazyload" alt="blog image left">
                     <h2 class="blog__post-title">Blog Post left</h2>
                     <p class="blog__post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     laborum tenetur aperiam laboriosam pariatur molestiae eum nihil. Obcaecati, ad? </p>
@@ -70,7 +70,7 @@
                     <button class="button button--blog">Read More</button>
                 </article>
                 <article class="blog__post">
-                    <img src="./images/blog2.jpg" class="blog__post-image" alt="blog image right">
+                    <img data-src="./images/blog2.jpg" class="blog__post-image lazyload" alt="blog image right">
                     <h2 class="blog__post-title">Blog Post right</h2>
                     <p class="blog__post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sunt sequi reprehenderit,  
                     laborum tenetur aperiam laboriosam pariatur molestiae eum nihil. Obcaecati, ad? </p>
@@ -82,7 +82,7 @@
             </div>
         </section>
 
-        <section class="service service--parallax" id="Service">
+        <section class="service" id="Service">
             <div class="service__content-container">
                 <h1 class="service__title">
                     Our Services
@@ -100,7 +100,7 @@
             <div class="testimonials__list">
               <article class="testimonials__list-item">
                 <figure class="testimonial">
-                    <img src="./images/tes1.jpg" class="testimonial__image" alt="testimonial 1">
+                    <img data-src="./images/tes1.jpg" class="testimonial__image lazyload" alt="testimonial 1">
                     <figcaption>
                         <h1 class="testimonial__title">
                             column 1
@@ -115,7 +115,7 @@
               </article>
               <article class="testimonials__list-item">
                 <figure class="testimonial">
-                    <img src="./images/tes2.jpg" class="testimonial__image" alt="testimonial 1">
+                    <img data-src="./images/tes2.jpg" class="testimonial__image lazyload" alt="testimonial 1">
                     <figcaption>
                         <h1 class="testimonial__title">
                             column 1
@@ -130,7 +130,7 @@
               </article>
               <article class="testimonials__list-item">
                 <figure class="testimonial">
-                    <img src="./images/tes3.jpg" class="testimonial__image" alt="testimonial 1">
+                    <img data-src="./images/tes3.jpg" class="testimonial__image lazyload" alt="testimonial 1">
                     <figcaption>
                         <h1 class="testimonial__title">
                             column 1
@@ -145,7 +145,7 @@
               </article>
               <article class="testimonials__list-item">
                 <figure class="testimonial">
-                    <img src="./images/tes4.jpg" class="testimonial__image" alt="testimonial 1">
+                    <img data-src="./images/tes4.jpg" class="testimonial__image lazyload" alt="testimonial 1">
                     <figcaption>
                         <h1 class="testimonial__title">
                             column 1
@@ -160,7 +160,7 @@
             </div>
             <article class="testimonials-description">
                 <div class="testimonials-description__container">
-                        <img src="./images/tes5.jpg" alt="Testimonials Description">
+                        <img data-src="./images/tes5.jpg" alt="Testimonials Description" class="lazyload">
                         <div class="testimonials-description__content">
                                 <h1 class="testimonials-description__title">One Big Column</h1>
                                 <p class="testimonials-description__paragraph">Lorem ipsum dolor sit amet, 
@@ -190,7 +190,7 @@
             </article>
         </section>
 
-        <section class="contact-section contact--parallax" id="Contact">
+        <section class="contact-section" id="Contact">
             <div class="contact-section__content-container">
                 <h1 class="contact-section__title">
                     Contact Form
@@ -248,5 +248,5 @@
             <hr class="main-footer__border-line">
             <p class="main-footer__copyright">Copyright &copy; 2018 Your Company Name | Design inspired by the Conquer Template</p>
     </footer>
-<script type="text/javascript" src="bundle.js"></script></body>
+<script type="text/javascript" src="main.js"></script><script type="text/javascript" src="vendor.js"></script></body>
 </html>

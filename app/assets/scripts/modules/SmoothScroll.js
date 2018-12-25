@@ -13,7 +13,7 @@ class SmoothScroll {
         this.scrollLink.click(e => {
             e.preventDefault();
             this.pageBody.animate({
-                scrollTop: $(e.target.hash).offset().top
+                scrollTop: ($(e.target.hash).offset().top - 66)
             }, 1600);
         })
     }

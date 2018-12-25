@@ -1,13 +1,15 @@
 const path = require("path");
-//const CleanWebpackPlugin = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  entry: "./app/assets/scripts/main.js",
+  entry: {
+    main: "./app/assets/scripts/main.js",
+    vendor: "./app/assets/scripts/vendor.js"  
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js"
+    filename: "[name].js"
   },
   
   module: {
@@ -24,7 +26,7 @@ module.exports = {
           options: {
             name: '[name].[ext]',
             outputPath: "./images/",
-            publicPath: "./images/"
+            publicPath: "./images/",
           }
          }
         ]
@@ -57,8 +59,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"
-    }),
-
-    //new CleanWebpackPlugin(["dist"])
+    })
   ]
 }

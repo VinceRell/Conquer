@@ -5,6 +5,7 @@ import $ from 'jquery';
         this.toggleButton = $(".main-header__toggle-button");
         this.mainNav = $(".main-nav");
         this.navLinks = $(".main-nav__item a");
+        this.sitebody = $("main");
         this.eventHandlers();
     }
 
@@ -14,8 +15,16 @@ import $ from 'jquery';
         });
 
         this.navLinks.click(() => {
-            this.mainNav.removeClass("main-nav--open");
+            this.closeMobileNav();
         });
+        
+        this.sitebody.click(() => {
+            this.closeMobileNav();
+        })
+    }
+
+    closeMobileNav(){
+        this.mainNav.removeClass("main-nav--open");
     }
 }
 
